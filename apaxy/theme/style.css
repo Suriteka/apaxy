@@ -17,7 +17,9 @@
 
 html {
 	min-height:100%;
-	border-top:10px solid #ECEEF1;
+	border-top:10px solid transparent;
+	border-image: linear-gradient(to right, #DB454F 0%, #FBBF44 50%, #45BAB9 100%);
+	border-image-slice: 1;
 	border-bottom:10px solid #ECEEF1;
 	color:#61666c;
 	font-weight:400;
